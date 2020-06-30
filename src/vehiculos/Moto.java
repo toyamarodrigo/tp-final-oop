@@ -4,25 +4,21 @@ public class Moto extends Vehiculo {
 
 	private String cilindrada;
 
-	public Moto() {
-	}
+	// Constructors
+	public Moto() {}
 
 	public Moto(String marca, String tipo, int km, String cilindrada) {
 		super(marca, tipo, km);
 		this.cilindrada = cilindrada;
 	}
-
+	// toString
 	@Override
 	public String toString() {
 		return "Moto " + super.toString() + "[cilindrada= " + cilindrada + "]";
 	}
-
-	public String getCilindrada() {
-		return cilindrada;
-	}
-
-	public void setCilindrada(String cilindrada) {
-		this.cilindrada = cilindrada;
-	}
+	
+	// Getters & Setters
+	public String getCilindrada() 					{ return cilindrada; 			}
+	public void setCilindrada(String cilindrada) 	{ this.cilindrada = cilindrada; }
 
 }
