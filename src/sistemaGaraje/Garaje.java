@@ -14,7 +14,8 @@ public class Garaje {
 	private double precioRueda;
 	private int capacidadVehiculoMax;
 
-	public Garaje() {}
+	public Garaje() {
+	}
 
 	public Garaje(double precioRueda, int capacidadVehiculoMax) {
 		this.precioRueda = precioRueda;
@@ -114,21 +115,68 @@ public class Garaje {
 
 	// Getters & Setters
 
-	public Vehiculo getVehiculo() 									{ return vehiculo; 									}
-	public void setVehiculo(Vehiculo vehiculo) 						{ this.vehiculo = vehiculo; 						}
-	public int getCantTotal() 										{ return cantTotal; 								}
-	public void setCantTotal(int cantTotal) 						{ this.cantTotal = cantTotal; 						}
-	public int getCantCoches() 										{ return cantCoches; 								}
-	public void setCantCoches(int cantCoches) 						{ this.cantCoches = cantCoches; 					}
-	public int getCantMotos() 										{ return cantMotos; 								}
-	public void setCantMotos(int cantMotos) 						{ this.cantMotos = cantMotos; 						}
-	public int getKmMotos() 										{ return kmMotos; 									}
-	public void setKmMotos(int kmMotos)		 						{ this.kmMotos = kmMotos; 							}
-	public int getKmCoches() 										{ return kmCoches; 									}
-	public void setKmCoches(int kmCoches) 							{ this.kmCoches = kmCoches; 						}
-	public double getPrecioRueda() 									{ return precioRueda; 								}
-	public void setPrecioRueda(double precioRueda) 					{ this.precioRueda = precioRueda; 					}
-	public int getCapacidadVehiculoMax() 							{ return capacidadVehiculoMax; 						}
-	public void setCapacidadVehiculoMax(int capacidadVehiculoMax) 	{ this.capacidadVehiculoMax = capacidadVehiculoMax; }
+	public Vehiculo getVehiculo() {
+		return vehiculo;
+	}
+
+	public void setVehiculo(Vehiculo vehiculo) {
+		this.vehiculo = vehiculo;
+	}
+
+	public int getCantTotal() {
+		return cantTotal;
+	}
+
+	public void setCantTotal(int cantTotal) {
+		this.cantTotal = cantTotal;
+	}
+
+	public int getCantCoches() {
+		return cantCoches;
+	}
+
+	public void setCantCoches(int cantCoches) {
+		this.cantCoches = cantCoches;
+	}
+
+	public int getCantMotos() {
+		return cantMotos;
+	}
+
+	public void setCantMotos(int cantMotos) {
+		this.cantMotos = cantMotos;
+	}
+
+	public int getKmMotos() {
+		return kmMotos;
+	}
+
+	public void setKmMotos(int kmMotos) {
+		this.kmMotos = kmMotos;
+	}
+
+	public int getKmCoches() {
+		return kmCoches;
+	}
+
+	public void setKmCoches(int kmCoches) {
+		this.kmCoches = kmCoches;
+	}
+
+	public double getPrecioRueda() {
+		return precioRueda;
+	}
+
+	public void setPrecioRueda(double precioRueda) {
+		this.precioRueda = precioRueda;
+	}
+
+	public int getCapacidadVehiculoMax() {
+		return capacidadVehiculoMax;
+	}
+
+	public void setCapacidadVehiculoMax(int capacidadVehiculoMax) {
+		this.capacidadVehiculoMax = capacidadVehiculoMax;
+	}
 
 }
