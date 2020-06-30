@@ -14,6 +14,7 @@ public class Garaje {
 	private double precioRueda;
 	private int capacidadVehiculoMax;
 
+	// Constructor
 	public Garaje() {
 	}
 

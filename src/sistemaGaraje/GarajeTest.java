@@ -11,6 +11,7 @@ public class GarajeTest {
 		Garaje garaje1 = new Garaje(4000, 8);
 		Garaje garaje2 = new Garaje(4000, 4);
 
+		// Creacion de Coches
 		Coche c1 = new Coche("renault", "auto", 10000, 4);
 		Coche c2 = new Coche("mercedez", "auto", 12000, 4);
 		Coche c3 = new Coche("ford", "auto", 14000, 4);
@@ -18,6 +19,7 @@ public class GarajeTest {
 		Coche c5 = new Coche("toyota", "auto", 18000, 2);
 		Coche c6 = new Coche("hyundai", "auto", 50000, 2);
 
+		// Creacion de Motos
 		Moto m1 = new Moto("yamaha", "moto", 5000, "250c");
 		Moto m2 = new Moto("ducati", "moto", 6000, "300c");
 		Moto m3 = new Moto("harley", "moto", 7000, "400c");
@@ -25,7 +27,7 @@ public class GarajeTest {
 		Moto m5 = new Moto("bmw", "moto", 8000, "660c");
 		Moto m6 = new Moto("sora", "moto", 8000, "345c");
 
-		// Ingreso de Vehiculos
+		// Ingreso de Vehiculos a garaje1
 		garaje1.ingresoVehiculo(c1);
 		garaje1.ingresoVehiculo(c2);
 		garaje1.ingresoVehiculo(c3);
@@ -56,6 +58,7 @@ public class GarajeTest {
 		// Muestra cantidad total de todos los vehiculos recibidos
 		garaje1.displayCantTotal();
 
+		// Ingreso de Vehiculos a garaje2
 		garaje2.ingresoVehiculo(c5);
 		garaje2.ingresoVehiculo(c6);
 		garaje2.ingresoVehiculo(m5);
