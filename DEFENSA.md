@@ -6,7 +6,7 @@ Responder las siguientes preguntas a fin de justificar el desarrollo presentado.
 
 > asd
 
-2. __¿Qué pilares del paradigma de la OO incluiste en el diseño?__
+2. __¿Qué pilares del paradigma de la POO incluiste en el diseño?__
 
 > asd
 
