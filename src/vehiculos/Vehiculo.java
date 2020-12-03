@@ -2,50 +2,33 @@ package vehiculos;
 
 public class Vehiculo {
 
-	private String marca;
-	private String tipo;
-	private int km;
+    private String marca;
+    private String tipo;
+    private int km;
 
-	// Constructors
-	public Vehiculo() {
-	}
+    // Constructors
+    public Vehiculo() {
+    }
 
-	public Vehiculo(String marca, String tipo, int km) {
-		this.marca = marca;
-		this.tipo = tipo;
-		this.km = km;
-	}
+    public Vehiculo(String marca, String tipo, int km) {
+        this.marca = marca;
+        this.tipo = tipo;
+        this.km = km;
+    }
 
-	// toString
-	@Override
-	public String toString() {
-		return "[marca= " + marca + ", tipo= " + tipo + ", km= " + km + "]";
-	}
+    // toString
+    @Override
+    public String toString() {
+        return "[marca= " + marca + ", tipo= " + tipo + ", km= " + km + "]";
+    }
 
-	// Getters & Setters
+    // Getters & Setters
 
-	public String getMarca() {
-		return marca;
-	}
+    public String getTipo() {
+        return tipo;
+    }
 
-	public void setMarca(String marca) {
-		this.marca = marca;
-	}
-
-	public String getTipo() {
-		return tipo;
-	}
-
-	public void setTipo(String tipo) {
-		this.tipo = tipo;
-	}
-
-	public int getKm() {
-		return km;
-	}
-
-	public void setKm(int km) {
-		this.km = km;
-	}
-
+    public int getKm() {
+        return km;
+    }
 }
